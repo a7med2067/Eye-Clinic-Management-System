@@ -1,0 +1,81 @@
+# =====================================================================
+# .gitignore — Eye Clinic Management System (C# / WinForms / SQL Server)
+# =====================================================================
+
+# ==========================
+# Build & IDE Artifacts
+# ==========================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.log
+
+# Visual Studio temp files
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+_UpgradeReport_Files/
+UpgradeLog*.htm
+
+# ReSharper / JetBrains
+_ReSharper*/
+*.DotSettings.user
+
+# ==========================
+# NuGet Packages (restore)
+# ==========================
+packages/
+*.nupkg
+**/packages.config.bak
+
+# ==========================
+# Temporary / Scratch
+# ==========================
+scratch/
+*.tmp
+~$*
+
+# ==========================
+# Agent / AI tooling
+# ==========================
+.agents/
+skills-lock.json
+
+# ==========================
+# Database Binary Files
+# ==========================
+*.mdf
+*.ldf
+*.bak
+*.db
+*.sqlite
+
+# ==========================
+# Standalone Binaries (root)
+# ==========================
+inno-setup-6-7-3.exe
+nuget.exe
+
+# ==========================
+# Installer Compiled Output
+# ==========================
+installer/Output/
+
+# ==========================
+# OS / Misc
+# ==========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

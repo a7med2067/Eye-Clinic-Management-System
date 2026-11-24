@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeClinic.Core", "src\EyeClinic.Core\EyeClinic.Core.csproj", "{4B1F8C22-2D91-4963-8CF4-6A93F5E4A001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeClinic.Data", "src\EyeClinic.Data\EyeClinic.Data.csproj", "{5C2F9D33-3E02-4A74-9DF5-7B04E6F5B002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeClinic.Business", "src\EyeClinic.Business\EyeClinic.Business.csproj", "{6D3A0E44-4F13-4B85-AE06-8C15F7A6C003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeClinic.WinForms", "src\EyeClinic.WinForms\EyeClinic.WinForms.csproj", "{7E4B1F55-5A24-4C96-BF17-9D26E8B7D004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeClinic.Tests", "tests\EyeClinic.Tests\EyeClinic.Tests.csproj", "{8F5B2A11-6B35-4F87-A128-0E37F9C8E005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B1F8C22-2D91-4963-8CF4-6A93F5E4A001}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{4B1F8C22-2D91-4963-8CF4-6A93F5E4A001}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{4B1F8C22-2D91-4963-8CF4-6A93F5E4A001}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{4B1F8C22-2D91-4963-8CF4-6A93F5E4A001}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{5C2F9D33-3E02-4A74-9DF5-7B04E6F5B002}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{5C2F9D33-3E02-4A74-9DF5-7B04E6F5B002}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{5C2F9D33-3E02-4A74-9DF5-7B04E6F5B002}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{5C2F9D33-3E02-4A74-9DF5-7B04E6F5B002}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{6D3A0E44-4F13-4B85-AE06-8C15F7A6C003}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{6D3A0E44-4F13-4B85-AE06-8C15F7A6C003}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{6D3A0E44-4F13-4B85-AE06-8C15F7A6C003}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{6D3A0E44-4F13-4B85-AE06-8C15F7A6C003}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{7E4B1F55-5A24-4C96-BF17-9D26E8B7D004}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{7E4B1F55-5A24-4C96-BF17-9D26E8B7D004}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{7E4B1F55-5A24-4C96-BF17-9D26E8B7D004}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{7E4B1F55-5A24-4C96-BF17-9D26E8B7D004}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{8F5B2A11-6B35-4F87-A128-0E37F9C8E005}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{8F5B2A11-6B35-4F87-A128-0E37F9C8E005}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{8F5B2A11-6B35-4F87-A128-0E37F9C8E005}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{8F5B2A11-6B35-4F87-A128-0E37F9C8E005}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

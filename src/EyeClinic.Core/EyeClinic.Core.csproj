@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B1F8C22-2D91-4963-8CF4-6A93F5E4A001}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EyeClinic.Core</RootNamespace>
+    <AssemblyName>EyeClinic.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <CscToolPath>$(MSBuildThisFileDirectory)..\..\packages\Microsoft.Net.Compilers.Toolset.5.9.0\tasks\net472</CscToolPath>
+    <CscToolExe>csc.exe</CscToolExe>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\UserRole.cs" />
+    <Compile Include="Enums\AppointmentStatus.cs" />
+    <Compile Include="Enums\ExamType.cs" />
+    <Compile Include="Enums\PaymentMethod.cs" />
+    <Compile Include="Enums\AuditActionType.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\Patient.cs" />
+    <Compile Include="Entities\Appointment.cs" />
+    <Compile Include="Entities\Payment.cs" />
+    <Compile Include="Entities\Receipt.cs" />
+    <Compile Include="Entities\Visit.cs" />
+    <Compile Include="Entities\Prescription.cs" />
+    <Compile Include="Entities\PrescriptionItem.cs" />
+    <Compile Include="Entities\MedicineCatalog.cs" />
+    <Compile Include="Entities\DiagnosisCatalog.cs" />
+    <Compile Include="Entities\PrescriptionTemplate.cs" />
+    <Compile Include="Entities\DailyClosing.cs" />
+    <Compile Include="Entities\AuditLog.cs" />
+    <Compile Include="Entities\ClinicSetting.cs" />
+    <Compile Include="DTOs\PatientSearchResultDto.cs" />
+    <Compile Include="DTOs\QueueItemDto.cs" />
+    <Compile Include="DTOs\DailyRevenueDto.cs" />
+    <Compile Include="DTOs\PrescriptionPrintDto.cs" />
+    <Compile Include="DTOs\PatientProfileDto.cs" />
+    <Compile Include="DTOs\DailyArchiveDetailDto.cs" />
+    <Compile Include="DTOs\BackupDto.cs" />
+    <Compile Include="DTOs\PatientImportDto.cs" />
+    <Compile Include="Common\SessionContext.cs" />
+    <Compile Include="Common\Result.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

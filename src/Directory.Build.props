@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildThisFileDirectory)..\packages\Microsoft.Net.Compilers.Toolset.5.9.0\build\Microsoft.Net.Compilers.Toolset.props" Condition="Exists('$(MSBuildThisFileDirectory)..\packages\Microsoft.Net.Compilers.Toolset.5.9.0\build\Microsoft.Net.Compilers.Toolset.props')" />
+  <PropertyGroup>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+</Project>

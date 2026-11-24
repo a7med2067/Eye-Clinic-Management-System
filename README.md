@@ -407,5 +407,4 @@ The system includes a production **Inno Setup 6** installer script located in [`
 ## 👨‍💻 Author
 
 **Eng. Ahmed Adel**  
-Senior Software Engineer  
-*Specialized in High-Reliability Healthcare Systems & Enterprise Desktop Engineering*
+DevOps & Cloud Engineer
